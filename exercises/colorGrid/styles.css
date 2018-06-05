@@ -1,0 +1,47 @@
+* {
+    font-size: 0;
+    box-sizing: border-box; 
+}
+
+.First {
+    height: 100px;
+    padding: auto;
+    border: 5px;
+    background-color: violet;
+    border-style: solid;
+    border-color: white;
+}
+
+.Second{
+    height: 100px;
+    width: 25%;
+    background-color: #EE2E84;
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+    
+}   
+.Third{
+    height: 100px;
+    width: 50%;
+    background-color: aqua;
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+}
+.Fourth{
+    height: 100px;
+    width: 75%;
+    background-color: rgb(102, 233, 102);
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+}
+.Fifth{
+    height: 100px;
+    width: 25%;
+    background-color: orange;
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+}
