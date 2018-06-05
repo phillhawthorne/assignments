@@ -1,8 +1,13 @@
-var arr = [1,2,3, "phil"]
+var fruit = ["banana", "apple", "orange", "watermelon"];  
+var veg = ["carrot", "tomato", "pepper", "lettuce"];  
 
-
-
-
-console.log(arr.slice(2));
-
-console.log(arr)
+var pop = veg.pop();
+var shift = fruit.shift();
+var index = fruit.indexOf("orange");
+fruit.push(1);
+// console.log(veg.length);
+veg.push(3);
+var food = fruit.concat(veg);
+food.splice(4,2);
+food.reverse();
+console.log(food);

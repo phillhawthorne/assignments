@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body {
+    margin: 0;   
+}
+
+h1 {
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    border: 5px;
+    border-color: black;
+    text-align: center;
+}
+
+h3 {
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    
+}
+p {
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+}
+img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 25px;
+    
+}
