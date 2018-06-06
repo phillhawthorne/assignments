@@ -15,7 +15,6 @@ body {
 h1 {
     font-size: 25px;
     color: black;
-    text-align: right;
     border: 5px;
     border-color: black;
     text-align: center;
@@ -31,7 +30,7 @@ p {
     color: black;
     font-size: 20px;
     line-height: 25px;
-    text-align: right;
+    text-align: center;
 }
 img {
     width: 250px;
