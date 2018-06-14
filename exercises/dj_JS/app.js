@@ -1,10 +1,12 @@
-var test = document.getElementById("test");
-test.addEventListener("mouseover",function() {
-    test.style.color = "blue";
-})
+var head = document.getElementById("Head");
+
 
 
 var head = document.querySelector("h1");
+
+head.addEventListener("mouseover",function() {
+    test.style.color = "blue";
+})
 
 head.addEventListener("click",function() {
     head.style.color = 'red';

@@ -1,0 +1,31 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin: auto;
+    border: 1px solid #333;
+    box-shadow: 10px 10px 5px 0 #999;
+    border-radius: 10%;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function:  ease-in-out;
+    transition-delay: .2s;
+    transition: all 4s ease-in .2s;
+}
+
+.box:hover {
+    box-shadow: none;
+    border-radius: 0;
+    background-color: red;
+    width: 700px;
+    height: 700px;
+}
+
+/* @keyframes onHover {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */

@@ -17,5 +17,30 @@
 //         return false
 //     }
 // }
-// console.log(evenOrOdd(2,4));
+// console.log(evenOrOdd(7,4));
+
+// function countChar(str){
+//     var output = {
+
+//     };
+//     for (var i = 0; i < str.length; i++) {
+//         output[str[i]] = str[i];
+//     }
+//     return output;
+// }
+// console.log(countChar("test"))
+
+// function getFrequency(str){
+//     var freq = {};
+//     for(var i = 0; i < str.length; i++){
+//         var character = str.charAt(i);
+//             if(freq[character]){
+//                 freq[character]++;
+//             }else{
+//                 freq[character] = 1
+//             }
+//     }
+//     return freq;
+// };
+// console.log(getFrequency("test"))
 

@@ -1,0 +1,77 @@
+/* France
+ * {
+    font-size: 0;
+    box-sizing: border-box; 
+}
+
+.First {
+    width: 100px;
+    height: 250px;
+    display: inline-block;
+    background-color: rgb(5, 5, 131);    
+}
+
+.Second{
+    width: 100px;
+    height: 250px;
+    display: inline-block;
+    background-color: white;
+}
+
+.Third {
+    width: 100px;
+    height: 250px;
+    display: inline-block;
+    background-color: red;
+} */
+
+
+
+/*  Germany
+
+.First {
+    width: 500px;
+    background-color: black;
+    height: 75px;
+    
+}
+
+.Second {
+    width: 500px;
+    background-color: red;
+    height: 75px;  
+}
+
+.Third {
+    width: 500px;
+    background-color: gold;
+    height: 75px;
+} */
+/* Madagascar
+* {
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.First {
+    height: 200px;
+    width: 50%;
+    background-color: white;
+    vertical-align: baseline;
+}
+
+.Second {
+    width: 50%;
+    height: 100px;
+    background-color: red;
+    
+
+}
+
+.Third {
+    width: 50%;
+    height: 100px;
+    background-color: green;
+    
+
+}

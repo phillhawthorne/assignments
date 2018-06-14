@@ -2,7 +2,12 @@
     font-size: 0;
     box-sizing: border-box; 
 }
-
+@media (min-width: 768px) {
+    .Second {
+        display: flex;
+        align-items: center;
+    }
+ }
 .First {
     height: 100px;
     padding: auto;
