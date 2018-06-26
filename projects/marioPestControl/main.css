@@ -1,0 +1,40 @@
+
+@font-face{
+    font-family: 'Mario';
+    src: url(fonts/SuperMario256.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+header{
+    font-family: Mario;
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-left: 25px;
+    text-align: center;
+}
+body{
+    font-family: Mario;
+    font-size: large;
+    background-color: #3E4EF0;
+    text-align: center;
+}
+img {
+    width: 90px;
+}
+
+input{
+    width: 75px;
+    text-align: right;
+}
+h1{
+    font-size: 25px;
+}
+footer{
+    position: fixed;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

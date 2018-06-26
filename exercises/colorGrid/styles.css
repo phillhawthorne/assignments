@@ -1,13 +1,17 @@
 * {
+    box-sizing: border-box;
     font-size: 0;
-    box-sizing: border-box; 
 }
-@media (min-width: 768px) {
-    .Second {
-        display: flex;
-        align-items: center;
-    }
- }
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.box {
+    height: 100px;
+    width: 100%;
+    border: white solid 5px;
+}
 .First {
     height: 100px;
     padding: auto;
@@ -15,6 +19,7 @@
     background-color: violet;
     border-style: solid;
     border-color: white;
+    
 }
 
 .Second{
@@ -25,6 +30,7 @@
     border-style: solid;
     border-color: white;
     
+    
 }   
 .Third{
     height: 100px;
@@ -33,6 +39,7 @@
     display: inline-block;
     border-style: solid;
     border-color: white;
+    
 }
 .Fourth{
     height: 100px;
@@ -41,6 +48,7 @@
     display: inline-block;
     border-style: solid;
     border-color: white;
+    
 }
 .Fifth{
     height: 100px;
@@ -49,4 +57,26 @@
     display: inline-block;
     border-style: solid;
     border-color: white;
+    
 }
+
+@media only screen and (min-width: 768px) {
+    .box{
+        display: inline-block;
+    }
+    .First{
+        width: 100%;
+    }
+    .Second{
+        width: 25%;
+    }
+    .Third{
+        width: 50%;
+    }
+    .Fourth{
+        width: 75%;
+    }
+    .Fifth{
+        width: 25%;
+    }
+ }

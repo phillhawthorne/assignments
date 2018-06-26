@@ -31,8 +31,30 @@ console.log(alphabetical);
 
 // #5
 
-// var = byAge[  
-//     { name: "Quiet Samurai", age: 22},{ name: "Arrogant Ambassador", age: 100},
-//     { name: "Misunderstood Observer", age: 2},
-//     { name: "Unlucky Swami",  age: 77 },]
+
+
+var byAge = [  
+    {
+        name: "Quiet Samurai",
+        age: 22
+    },
+    {
+        name: "Arrogant Ambassador",
+        age: 100
+    },
+    {
+        name: "Misunderstood Observer",
+        age: 2
+    },
+    {
+        name: "Unlucky Swami",
+        age: 77
+    }
+];
+
+var ages = byAge.sort (function(obj1,obj2){
+    return obj1.age > obj2.age;
+});
+console.log(ages);
+
 

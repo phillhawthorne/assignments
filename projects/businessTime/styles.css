@@ -2,6 +2,16 @@ nav {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    font-size: 25;
+    font-size: xx-large;
+    font-style: arial;
 
+}
+header{
+    text-align: center;
+    font-size: x-large;
+}
+
+p{
+    text-align: center;
+    font-size: large;
 }
