@@ -1,5 +1,5 @@
 {
-  "name": "escapeRoom",
+  "name": "mulitply-warmup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "readline": "^1.3.0",
-    "readline-sync": "^1.4.9",
-    "sync": "^0.2.5"
+    "chai": "^4.1.2"
   }
 }
