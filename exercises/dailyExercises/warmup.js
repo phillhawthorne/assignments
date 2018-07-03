@@ -45,3 +45,47 @@
 //   this.hasCellWall = false;
 // }
 
+// VALIDATE IP ADDRESS
+
+
+
+//  const validateIP = (str) => {
+//     if (/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(str));
+//     {
+//         return (true)
+//     } 
+//     alert("You have entered an invalid IP address!")
+//         return (false)
+    
+// }
+
+// console.log(validateIP('aa.io.p30.0'));
+// console.log(validateIP('3.89.230.0'));
+// console.log(validateIP('0.30.90'));
+
+// const validateIP = (str) =>{
+//     splitAddress = str.split(".")
+//     let answer = true;
+//     if (splitAddress.length < 4){
+//         answer = false
+//     } else {
+//         for (let i = 0; i < splitAddress.length; i++) {
+//             if (Number(splitAddress[i]) <= 255 && Number(splitAddress[i] >= 0)) {
+//                 answer = true
+//             } else {
+//                 answer = false
+//                 break
+//             };
+//         }
+//     }
+//     return answer;
+// }
+
+// console.log(validateIP('0.30.90'));
+
+
+
+
+// module.exports = validateIP;
+
+
