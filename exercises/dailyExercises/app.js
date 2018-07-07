@@ -70,3 +70,36 @@
 // }
 // // console.log(str.match(regEx));
 // console.log(countCode("codecozeCodexvdgcoxe"))
+
+
+// const boy = {
+//     name: 'joe',
+//     age: 14,
+//     hobbies: ['running','rafting']
+// }
+// if(boy === 'joe' && age < 15){
+//     console.log('1')
+// }
+// if(boy.hobbies.length < 2){
+//     console.log('2')
+// }
+// else if(boy.name === 'joe' || age > 16) {
+//     console.log('3')
+// }
+
+
+
+
+switch (stuff) {
+    case 'tacos':
+        console.log('you love tacos, I love tacos!');
+        break;
+    case 'pizza':
+    case 'hot wings':
+        console.log('everyone loves pizza');
+        break;
+        default:
+        console.log('IF YOU HATE THESE THINGS YOU HAVE NO SOUL')
+}
+
+<div id='title'onclick='alert("Hello World")'>Click here</div>
