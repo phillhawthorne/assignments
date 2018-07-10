@@ -8,30 +8,31 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> 
 </head>
 <body>
-    <header>Mario Pest Control</header>
+    <header>Mario's Pest Control</header>
     <div class="Enemy1">
     <img src="https://www.mariowiki.com/images/9/99/GoombaTrophy3DS.png" alt="Goombas">
             <ul style="list-style-type: none">
                 <li>Goombas Price: 5 coins</li>
-                <input type="number" name="Goombas">
+                <input type="number" name="Baddie" id="Goombas" value="5">
             </ul>
         </div>
         <div class="Enemy2">
     <img src="https://vignette.wikia.nocookie.net/ssb/images/d/d7/Bob-ombTrophy3DS.png/revision/latest?cb=20140929183902"alt="Bob-ombs">        
             <ul style="list-style-type: none">
                 <li>Bob-ombs Price: 7 coins</li>
-                <input type="number" name="Bob-ombs">
+                <input type="number" name="Baddie" id="Bob-ombs" value="7">
             </ul>
         </div>
         <div class="Enemy3">
     <img src="https://www.mariowiki.com/images/1/12/CheepCheepTrophy3DS.png" alt="Cheep-Cheeps">        
                 <ul style="list-style-type: none">  
                 <li>Cheep-Cheeps Price: 11 Coins</li>
-                <input type="number" name="Cheep-Cheeps">
+                <input type="number" name="Baddie" id="Cheep-Cheeps" value="11">
             </ul>
         </div>
-        <h1>Total Price:</h1>
-        <input type="number" name="blocktotal">
+        <h1 id="answer"></h1>
+        <button onclick="calculate()">Total Price</button>
+        <script src="index.js"></script>
     </body>
 <footer>
     <p>Mario's Baddie Removal</p>
