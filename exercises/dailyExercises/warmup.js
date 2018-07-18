@@ -88,4 +88,9 @@
 
 // module.exports = validateIP;
 
+// FINDING THE HIGHEST NUMBER IN AN ARRAY SIMPLEST EQUATION
 
+let nums = [4, 5, 1, 3, 10, 14, 22, 39, 7, 49, 52, 76, 87, 101] 
+
+let arr = Math.max(...nums);
+console.log(arr)

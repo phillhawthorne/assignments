@@ -56,3 +56,4 @@ class App extends Component{
 }
 
 export default connect(state=>state,{getTodos})(App)
+// export default connect(mapStateToProps, actionCreators)(containerName)
